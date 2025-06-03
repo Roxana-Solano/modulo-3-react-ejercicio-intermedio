@@ -1,0 +1,174 @@
+[{
+"results": [
+{
+"id": "16420102983093087",
+"name": "Camila",
+"counselor": "Dayana",
+"promo": 53,
+"speciality": "Bulma CSS",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/camila"
+}
+]
+},
+{
+"id": "16420102983322160",
+"name": "Cande",
+"counselor": "Dayana",
+"promo": 53,
+"speciality": "ThreeJS",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/cande"
+},
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/cande/"
+}
+]
+},
+{
+"id": "16420102983663774",
+"name": "Cipa",
+"counselor": "Iván",
+"promo": 53,
+"speciality": "Bulma CSS",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/cipa"
+}
+]
+},
+{
+"id": "16420102983897670",
+"name": "Cris",
+"counselor": "Iván",
+"promo": 53,
+"speciality": "ExpressJS",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/cris"
+},
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/cris/"
+}
+]
+},
+{
+"id": "16420102984266933",
+"name": "Chrissy",
+"counselor": "Dayana",
+"promo": 53,
+"speciality": "Testing/QA",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/chrissy"
+}
+]
+},
+{
+"id": "1642010298449158",
+"name": "Jessica",
+"counselor": "Dayana",
+"promo": 53,
+"speciality": "Testing/QA",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/jessica"
+},
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/jessica/"
+}
+]
+},
+{
+"id": "16420102984796884",
+"name": "Joly",
+"counselor": "Iván",
+"promo": 53,
+"speciality": "UX/UI expert",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/joly"
+},
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/joly/"
+}
+]
+},
+{
+"id": "16420102985186471",
+"name": "Patri",
+"counselor": "Iván",
+"promo": 53,
+"speciality": "Python",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/patri"
+},
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/patri/"
+}
+]
+},
+{
+"id": "16420102985565327",
+"name": "Paula",
+"counselor": "Dayana",
+"promo": 53,
+"speciality": "Tailwind CSS",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/paula"
+},
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/paula/"
+},
+{
+"name": "Twitter",
+"url": "https://twitter.com/paula"
+}
+]
+},
+{
+"id": "16420102986074107",
+"name": "Raquel",
+"counselor": "Dayana",
+"promo": 53,
+"speciality": "Nuxt",
+"social_networks": [
+{
+"name": "GitHub",
+"url": "https://github.com/raquel"
+},
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/raquel/"
+}
+]
+},
+{
+"id": "16420102986454954",
+"name": "Roxana",
+"counselor": "Iván",
+"promo": 53,
+"speciality": "ReactJS",
+"social_networks": []
+}
+]
+}]
