@@ -1,3 +1,44 @@
-@use './core/reset';
+@use "./core/reset";
 
-/* Aquí van los estilos */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin: 3px;
+}
+
+h1 {
+  color: #333;
+  margin: 25px;
+  padding-bottom: 6rem;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 93rem;
+  margin-left: auto;
+  margin-right: 100px;
+  width: 98%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: rosybrown;
+  color: #333;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #fce4ec;
+  transition: background-color 0.3s ease;
+}

@@ -6,7 +6,7 @@ function App() {
   const [girlsAdalabs] = useState(adabalersData);
   /* console.log("aaaaaaaaaaa", adabalersData); */
   return (
-    <div>
+    <div className="container">
       <h1>Adalabers</h1>
       <table>
         <thead>
