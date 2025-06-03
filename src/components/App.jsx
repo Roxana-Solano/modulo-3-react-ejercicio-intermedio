@@ -4,10 +4,23 @@ import { useState } from "react";
 
 function App() {
   const [girlsAdalabs] = useState(adabalersData);
-  /* console.log("aaaaaaaaaaa", adabalersData); */
+  const [searchName, setSearchName] = useState("");
+
+  const handleInput = (ev) => {
+    setSearchName(ev.target.value);
+  };
+
   return (
     <div className="container">
       <h1>Adalabers</h1>
+      <label htmlFor="searchName">Nombre:</label>
+      <input
+        className=""
+        type="text"
+        placeholder="Buscar nombre"
+        value={searchName}
+        onChange={handleInput}
+      />
       <table>
         <thead>
           <tr>
@@ -17,13 +30,19 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {girlsAdalabs.map((valueGirls, index) => (
-            <tr key={index}>
-              <td>{valueGirls.name}</td>
-              <td>{valueGirls.counselor}</td>
-              <td>{valueGirls.speciality}</td>
-            </tr>
-          ))}
+          {girlsAdalabs
+            .filter((valueGirls) =>
+              valueGirls.name
+                .toLocaleLowerCase()
+                .includes(searchName.toLocaleLowerCase())
+            )
+            .map((valueGirls, index) => (
+              <tr key={index}>
+                <td>{valueGirls.name}</td>
+                <td>{valueGirls.counselor}</td>
+                <td>{valueGirls.speciality}</td>
+              </tr>
+            ))}
         </tbody>
       </table>
     </div>
